@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+   
+}
+
+body {
+    font-family: 'K2D', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0px;
+    margin: 0;
+    display: none;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: auto;
+}
+img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;   
+}
+
+section {
+    display: block;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #275aa1;
+   font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;    
+    padding: 0;
+    text-align: justify;   
+}
+
+a {
+    color: #2d95b5;
+    transition: color 0.2s;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+
+/*NAVIGATION*/
+.navbar {
+    margin-top: 20px;
+    margin-bottom: 0px;  
+}
+
+.navbar .nav-logo {
+    padding: 0;
+    margin-left: 0;
+}
+
+.navbar-header .nav-logo img {
+    margin-top: 30px;
+    padding-top: 38px;
+    display: block;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;
+}
+
+.navbar ul {
+    list-style: none;
+    margin-bottom: 0px;  
+}
+
+.navbar ul li {
+    padding: 0px 20px;
+    text-align: right;
+    display: inline-block;
+    transition: 0.5s ease;
+}
+
+.navbar ul li:hover {
+    background-color: #c4f5c6;
+    border-radius: 25px;
+    text-decoration:none;
+}
+
+.navbar ul li a {
+    display: block;
+    padding-top: 0px;
+    color: darkslateblue;
+    font-weight: normal;
+    font-style: normal;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    font-size: 22px;    
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.navbar-collapse .dropdown .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: rgba(196,245,198,0.9);
+    width: auto;
+    height: auto;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+    z-index: 1;
+    text-align:left;
+    left: 0;
+    border-radius: 20px;
+    margin-top: 0;
+}
+
+.dropdown-menu li { 
+    display: block;     
+}
+
+.dropdown .dropdown-menu li a {
+    color: darkslategray;
+    font-size: 18px;
+    transition: 0.3s ease;
+}
+
+.navbar .dropdown .dropdown-menu li:hover {
+    background-color: transparent;
+}
+
+
+.dropdown-menu li a:hover {
+   background-color: lightblue;
+    background-image: none;
+    border-radius: 10px;
+    
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;    
+}
+
+i {
+    border: solid darkslateblue;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-left: 3px;
+}
+
+.down {
+    transform: rotate(45deg) translateY(-5px);    
+}
+
+.history-section, .activities-section {
+    background-position: left 40vh, right top;
+    background-size: 35% 50% 600px;
+    max-width: 500px;
+}
+
+
+
+.col-lg-10 {
+    float: left;
+    position: relative;
+    padding-left: 40px;
+    padding-right: 30px;
+}
+
+.history-section .history-text-wrapper, .activities-section .activities-text-wrapper {
+    position: relative;
+    height: 600px;
+}
+
+.history-section .history-text-wrapper .history-content, .activities-section .activities-text-wrapper .activities-content{
+    position: relative;
+    top: 20%;
+   /* transform: translateY(-50%);*/
+}
+
+.history-section .history-text-wrapper .history-content-info, .activities-section .activities-text-wrapper .activities-content-info {
+    padding-right: 40px;
+    font-size: 20px;
+    color: #2d95b5;
+    margin-bottom: 10px;
+    text-align: justify;
+    font-family: 'Slabo 27px', serif;
+    letter-spacing: 0.7px;
+}
+
+.us-section {
+    /*background-color: #d6f6c6;*/
+   
+    margin-top: 0px;
+    padding: 55px 0px 70px;
+    position: relative;
+    margin-bottom: 50px;
+    opacity: 1;
+    transition: 1s ease;
+}
+
+.us-section h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #275aa1;
+   font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;    
+    padding: 0;
+}
+
+.col-md-7{
+    position: relative;
+    padding-left: 30px;
+    padding-right: 30px;
+    float: left;
+    width: 70%;
+}
+
+.col-md-offset-2 {
+    margin-left: 33%
+}
+
+.us-section p {
+    color: #2d95b5;
+    display: block;
+    padding 20px 0px;
+    background-color: transparent;
+    text-decoration: none;
+    font-family: 'Slabo 27px', serif;
+    font-size: 22px;
+    text-align: justify
+    
+}
+
+.activities-section .activities-info-list {
+    margin-top: 20px;
+    padding-left: 0;   
+    display: block;
+}
+
+.activities-info-list .activity {
+    
+    padding: 15px 0 15px 0;
+    border-bottom-right-radius: 0px;
+    text-align: justify;   
+    display: block;
+    padding 20px 0px;
+    color: #2d95b5;
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.3s ease;
+    list-style:square;
+}
